@@ -1,4 +1,4 @@
-# json_dynamic_widget_expressions
+# json_dynamic_widget_plugin_expressions
 
 ## Table of Contents
 
