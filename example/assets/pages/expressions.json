@@ -1,0 +1,157 @@
+{
+  "type": "scaffold",
+  "args": {
+    "appBar": {
+      "type": "app_bar",
+      "args": {
+        "title": {
+          "type": "text",
+          "args": {
+            "text": "Expressions"
+          }
+        }
+      }
+    },
+    "body": {
+      "type": "list_view",
+      "children": [
+        {
+          "type": "list_tile",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "add(1, 2)"
+              }
+            },
+            "subtitle": {
+              "type": "text",
+              "args": {
+                "text": "##expression(add(1, 2))##"
+              }
+            }
+          }
+        },
+        {
+          "type": "list_tile",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "add(subtract(2, 1), add(1, 1))"
+              }
+            },
+            "subtitle": {
+              "type": "text",
+              "args": {
+                "text": "##expression(add(subtract(2, 1), add(1, 1)))##"
+              }
+            }
+          }
+        },
+        {
+          "type": "list_tile",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "add(one, two)"
+              }
+            },
+            "subtitle": {
+              "type": "text",
+              "args": {
+                "text": "##expression(add(one, two))##"
+              }
+            }
+          }
+        },
+        {
+          "type": "list_tile",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "add(subtract(two, one), add(one, one))"
+              }
+            },
+            "subtitle": {
+              "type": "text",
+              "args": {
+                "text": "##expression(add(subtract(two, one), add(one, one)))##"
+              }
+            }
+          }
+        },
+        {
+          "type": "list_tile",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "1+2"
+              }
+            },
+            "subtitle": {
+              "type": "text",
+              "args": {
+                "text": "##expression(1+2)##"
+              }
+            }
+          }
+        },
+        {
+          "type": "list_tile",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "-1+2"
+              }
+            },
+            "subtitle": {
+              "type": "text",
+              "args": {
+                "text": "##expression(-1+2)##"
+              }
+            }
+          }
+        },
+        {
+          "type": "list_tile",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "1+4-5%2*3"
+              }
+            },
+            "subtitle": {
+              "type": "text",
+              "args": {
+                "text": "##expression(1+4-5%2*3)##"
+              }
+            }
+          }
+        },
+        {
+          "type": "list_tile",
+          "args": {
+            "title": {
+              "type": "text",
+              "args": {
+                "text": "x*x+y*y==z*z"
+              }
+            },
+            "subtitle": {
+              "type": "text",
+              "args": {
+                "text": "##expression(x*x+y*y==z*z)##"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
