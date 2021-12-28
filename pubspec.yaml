@@ -15,13 +15,12 @@ dependencies:
   expressions: ^0.2.3
   flutter:
     sdk: flutter
-  flutter_svg: ^0.22.0
-  json_class: ^2.0.0+2
-  json_dynamic_widget: ^3.4.2+1
-  json_theme: ^3.1.0
+  json_class: ^2.1.2+1
+  json_dynamic_widget: ^3.5.2
+  json_theme: ^3.2.1
   logging: ^1.0.2
   meta: ^1.7.0
-  uuid: ^3.0.4
+  uuid: ^3.0.5
 
 dev_dependencies:
   flutter_test:
