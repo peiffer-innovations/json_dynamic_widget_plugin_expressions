@@ -1,5 +1,8 @@
 # json_dynamic_widget_plugin_expressions
 
+**DISCONTINUED**: the functionality provided by this plugin has been added to the base [json_dynamic_widget](https://github.com/peiffer-innovations/json_dynamic_widget) package as of 4.0.0.  This plugin is no longer needed and will no longer be maintained. 
+
+
 ## Table of Contents
 
 * [Live Example](#live-example)
